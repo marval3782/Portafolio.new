@@ -1,0 +1,80 @@
+.redes{
+    height:420px;
+    
+    
+    }
+    .cajaBoton{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        height: 40px;
+        width: 110px;
+        border: 1px solid var(--naranja);
+        background-color: transparent;
+        margin-left: 600px;
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+    .aContactame{
+        text-decoration: none;
+        color: var(--naranja);
+        font-size: 1.4rem;
+    }
+    .aContactame:hover{
+        color: white;
+    }
+    .cajaBoton:hover{
+        background-color: var(--naranja);
+    }
+    .sub{
+        font-size: 1.5rem;
+        color: var(--naranja);
+        margin-left: 50px;
+    }
+    .tituloRedes{
+        display: flex;
+        color: white;
+        font-size: 3rem;
+        margin-top: 140px;
+        margin-left: 50px;
+    }
+    .cards{
+        margin-top: 100px;
+        display: flex;
+       
+    }
+    .card-body{
+        display: flex;
+        height: 120px;
+        width: 340px;
+        background-color: var(--azulclaro);
+        color: var(--naranja);
+        border: solid 1px var(--naranja);
+        margin-top: 80px;
+        margin-left: 80px;
+        border-radius: 5px;
+    }
+    .card-title{
+        font-size: 2rem;
+        color: white;
+        margin-left: 18px;
+        margin-top: 18px;
+    }
+    .card-subtitle{
+        font-size: 1rem;
+        margin-left: 18px;
+        margin-top: 5px;
+    }
+    .icon{
+        font-size: 4rem;
+        color:  rgba(26, 28, 49, 0.886);
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .msj{
+        font-size: 4rem;
+        color:  rgba(26, 28, 49, 0.886);
+        margin-left: 60px;
+        margin-top: 20px;
+    }

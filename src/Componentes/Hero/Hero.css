@@ -1,0 +1,26 @@
+.hero{
+    display: flex;
+    height: 500px;   
+}
+.presentacion{
+    margin-top: 150px;
+    margin-left: 90px; 
+}
+.iam{
+    color: var(--naranja);
+    font-size: 2rem;
+}
+.nombre{
+    color: white;
+    font-size: 4rem;
+    width: 480px;
+}
+.programador{
+    color: white;
+    font-size: 2rem;
+}
+.persona{
+    background: linear-gradient(transparent,80%,transparent,20% );
+    margin-left: 200px;
+    height: 500px;
+}

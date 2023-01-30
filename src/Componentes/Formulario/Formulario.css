@@ -1,0 +1,107 @@
+.formulario{
+    height: 350px;
+  
+}
+.contenedorFormularios{
+    display: flex;
+    justify-content: center;
+}
+.contactos{
+width: 340px;
+height: 300px;
+
+}
+.losFormularios{
+width: 600px;
+height: 300px;
+
+}
+hr{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 300px;
+    border: 1px solid var(--naranja);
+color: var(--naranja);
+}
+.tituloContacto{
+    color: white;
+    margin-left: 180px;
+    
+}
+
+.plata{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.izquierda{
+    color: white;
+}
+.icono{
+    color: var(--naranja);
+    font-size: 1.5rem;
+}
+.btnServicios{
+    height: 35px;
+    width: 130px;
+    color: white;
+    background-color: var(--naranja);
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.btnServicios:hover{
+    background-color: transparent;
+    border: 1px solid var(--naranja);
+    color: var(--naranja);
+}
+.parrafoFormulario{
+    color: white;
+    font-size: 1rem;
+    margin-left: 7.2px;
+}
+
+.inputUno{
+    display: flex;
+    margin-top: 20px;
+}
+
+.inputDos{
+    display: flex;
+}
+.inputMensaje{
+    width: 510px;
+    padding: 35px;
+}
+.btnEnviar{
+width: 570px;
+border-radius: 5px;
+border:0px;
+padding: 10px;
+margin-left: 15px;
+background-color: var(--naranja);
+color: white;
+}
+.btnEnviar:hover{
+    background-color: transparent;
+    border: 1px solid var(--naranja);
+    color: var(--naranja);
+}
+input{
+    width: 300px;
+    border-radius: 15px;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid var(--naranja) ;
+}
+
+input:hover{
+    background-color: transparent;
+    border: 1px solid var(--naranja) ;
+   
+}

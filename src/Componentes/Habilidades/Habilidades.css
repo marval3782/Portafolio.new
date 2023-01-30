@@ -1,0 +1,112 @@
+.habilidades{
+    display: flex;
+    height: 450px;
+    width: 1200px;
+    background-color: var(--azulclaro);
+    margin-left: 60px;
+    margin-bottom: 200px;
+    box-shadow: 0px 1px 12px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 12px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px 4px rgba(0,0,0,0.75);
+    
+}
+.quienSoy{
+    height: 350px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.des{
+    color: white;
+    margin-left: -235px;
+    font-size: 1rem;
+}
+.tituloSoy{
+    color: var(--naranja);
+    margin-bottom: 20px;
+}
+.parrafoSoy{
+    color: white;
+}
+.listaHabilidades{
+
+    height: 350px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.mis{
+    font-size: 1rem;
+    color: white;
+    margin-left: -475px;
+}
+.tituloHabilidades{
+    color: var(--naranja);
+    margin-bottom: 20px;
+}
+.skilss:not(:last-child){
+    margin-bottom: 30px;
+}
+.detalles{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.menu{
+    position: relative;
+    border: 1px solid var(--naranja);
+    border-radius: 20px;
+}
+.menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: var(--naranja);
+}
+
+#htmlMenu{
+    animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 90%;
+    }
+}
+#cssMenu{
+    animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#jsMenu{
+    animation: js-barra 2s forwards;
+}
+
+@keyframes js-barra{
+    100%{
+        width: 60%;
+    }
+}
+
+#reactMenu{
+    animation: react-barra 2s forwards;
+}
+
+@keyframes react-barra{
+    100%{
+        width: 30%;
+    }
+}

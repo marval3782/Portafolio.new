@@ -1,0 +1,22 @@
+.portafolio{
+    
+    height: 300px;
+}
+.porta{
+    color: var(--naranja);
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family:  'Trebuchet MS';
+}
+.limita{
+    display: flex;
+    justify-content: center;
+}
+.presenta{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    width: 800px;
+    height: 120px;
+    color: white;
+}

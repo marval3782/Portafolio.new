@@ -1,0 +1,19 @@
+.listaMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-top: 20px;
+} 
+.about{
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.about:hover{
+    color: var(--naranja);
+}
+.logo{
+    color: var(--naranja);
+    font-style: italic;
+}

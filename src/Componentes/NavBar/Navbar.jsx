@@ -1,6 +1,7 @@
-import './App.css'
+import React from 'react';
+import './Navbar.css'
 
-const App = () => {
+const Navbar = () => {
     return(
     <header class="listaMenu">
             <h1 class="logo">  Marcos paredes</h1>
@@ -14,4 +15,4 @@ const App = () => {
     )
 }
 
-export default App;
+export default Navbar;

@@ -1,0 +1,16 @@
+footer{
+    height: 100px;
+    background-color: var(--azulclaro);
+ }
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#parrafo{
+    margin-top:45px ;
+    color:white;
+}
+code{
+    color: #888;
+}
