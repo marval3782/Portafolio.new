@@ -16,4 +16,131 @@
 .logo{
     color: var(--naranja);
     font-style: italic;
+    margin-left: 100px;
+ }
+ .hamburguesa{
+    color: white;
+    display: none;
+    font-size: 32px;
+    justify-content: end;
+ }
+ .hamburguesa:hover{
+    color: var(--naranja);
+ }
+
+
+@media (min-width: 1025px){
+
 }
+
+@media (min-width: 752px)and (max-width:1024px){
+
+}
+
+@media (min-width: 490px)and (max-width:751px){
+    .listaMenu{
+        display: flex;
+        justify-content: space-between;
+       }
+}
+
+@media (min-width: 492px)and (max-width:772px){
+    
+    .hamburguesa{
+        display: flex;
+        align-items: center;
+   }
+   #navhead{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0px 15px 15px 0px black;
+    height: 60px;
+    margin-top: 5px;
+   }
+  
+   .logo{
+    
+    margin-left: 10px;
+   }
+   #nav-menu{
+    
+        margin-top: 40px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        
+   }
+   .container-fluid{
+    width:1200px;
+    display: flex;
+   }
+   
+   .nav-links{
+    position: fixed;
+    
+    transition: 0.5s;
+    
+   }
+    .active{
+    margin-left: 720px;
+    transition: 1s;    
+   }
+   
+   .about{
+    text-align: end;
+   }
+   .about:hover{
+    
+    
+    color: var(--naranja);
+   }
+   .listaMenu{
+    display: flex;
+    flex-direction: column;
+   }
+}
+/* @media (min-width: 600px)and (max-width:700px){
+    svg{
+        display: block;
+        margin-left: 200px;
+       }
+       .about{
+        display: none;
+       }
+       .listaMenu{
+        display: flex;
+        justify-content: space-around;
+       }
+} */
+/* @media (min-width: 500px)and (max-width:600px){
+    svg{
+        display: block;
+        margin-left: 200px;
+       }
+       .about{
+        display: none;
+       }
+       .listaMenu{
+        display: flex;
+        justify-content: space-between;
+       }
+} */
+/* @media (min-width: 400px)and (max-width:500px){
+    svg{
+        display: block;
+        margin-left: 200px;
+       }
+       .about{
+        display: none;
+       }
+       .listaMenu{
+        display: flex;
+        justify-content: space-between;
+       }
+} */
+
+
+
+

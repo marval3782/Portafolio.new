@@ -43,7 +43,7 @@ const Formulario = () => {
                    <input type="text" placeholder="Mensaje" name="Mensaje" class="inputMensaje"/>
                    <input type="submit" class="btnEnviar" value="Enviar"></input>
     
-                   <input  type="hidden" name="_next" value="http://127.0.0.1:5500/boceto%20proyecto/index.html"/>
+                   <input  type="hidden" name="_next" value="http://localhost:3000/#portafolio"/>
                    <input type="hidden" name="_captcha" value="false"/>
             </form>
       </div>

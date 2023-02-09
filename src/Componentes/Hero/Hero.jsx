@@ -1,7 +1,11 @@
 import React from 'react';
-import './Hero.css'
+import './Hero.css';
+import persona from '../img/persona.png'
+
+
 
 const Hero = () => {
+      
     return(
         <section id="quienSoy" class="hero">
         
@@ -10,9 +14,14 @@ const Hero = () => {
             <h1 class="nombre">Marcos Valentin Paredes</h1>
             <p class="programador">Programador web full stack developer</p>
             </div>
-            <img src="./persona.png" class="persona" alt=""></img>
+            <div class="imagen">
+            <img src={persona} class="persona" alt=""></img>
             
-
+            </div>
+            
+            
+            
+            
        </section>
     )
 }

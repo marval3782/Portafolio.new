@@ -1,6 +1,13 @@
 .hero{
     display: flex;
     height: 500px;   
+    transition: 0.5s;
+}
+.hero-tras{
+    display: flex;
+    height: 500px;   
+    margin-top: 200px;
+    transition: 0.5s;
 }
 .presentacion{
     margin-top: 150px;
@@ -15,6 +22,11 @@
     font-size: 4rem;
     width: 480px;
 }
+.arrow{
+    font-size: 4rem;
+    width: 4rem;
+    background-color: aquar´;
+}
 .programador{
     color: white;
     font-size: 2rem;
@@ -23,4 +35,41 @@
     background: linear-gradient(transparent,80%,transparent,20% );
     margin-left: 200px;
     height: 500px;
+}
+
+
+@media (min-width: 1000px)and (max-width:1100px){
+
+}
+
+@media (min-width: 900px)and (max-width:1000px){
+
+}
+@media (min-width: 800px)and (max-width:900px){
+
+}
+@media (min-width: 700px)and (max-width:800px){
+
+}
+@media (min-width: 600px)and (max-width:700px){
+
+}
+@media  (max-width:800px){
+.hero{
+    display: block;
+    position: relative;
+    height: 500px;
+    width: 596px;
+}
+
+.imagen{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 150px;
+    z-index: 10;
+}
+.presentacion{
+    position: absolute;
+   z-index: 15;
+}
 }

@@ -14,7 +14,6 @@ height: 300px;
 .losFormularios{
 width: 600px;
 height: 300px;
-
 }
 hr{
     margin-left: 30px;
@@ -104,4 +103,28 @@ input:hover{
     background-color: transparent;
     border: 1px solid var(--naranja) ;
    
+}
+
+
+@media (min-width: 1000px)and (max-width:1100px){
+
+}
+
+@media (min-width: 900px)and (max-width:1000px){
+
+}
+@media (min-width: 800px)and (max-width:900px){
+
+}
+@media (min-width: 700px)and (max-width:800px){
+
+}
+@media (min-width: 600px)and (max-width:700px){
+
+}
+@media (min-width: 500px)and (max-width:600px){
+
+}
+@media (min-width: 400px)and (max-width:500px){
+
 }

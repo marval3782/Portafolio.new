@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import Hero from './Componentes/Hero/Hero';
 import Navbar from './Componentes/NavBar/Navbar';
 import Habilidades from './Componentes/Habilidades/Habilidades';
@@ -10,20 +9,29 @@ import Sitios from './Componentes/Sitios/Sitios';
 import Redes from './Componentes/Redes/Redes';
 import Formulario from './Componentes/Formulario/Formulario';
 import Footer from './Componentes/Footer/Footer';
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import App from './App';
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-  <React.StrictMode>
-    <Navbar/>
-   <Hero/>
-   <Habilidades/>
-   <Portafolio/>
-   <Sitios/>
-   <Redes/>
-   <Formulario/>
-   <Footer/>
-  </React.StrictMode>
+
+  <>
+  <Navbar/>
+  {/* <App/> */}
+  <Hero/>
+  <Habilidades/> 
+  <Portafolio/>
+  <Sitios/>
+  <Redes/>
+  <Formulario/>
+  <Footer/>
+  </>
+  
 
 );
 
