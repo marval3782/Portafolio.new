@@ -1,4 +1,5 @@
-.sitios{
+
+.tituloSitios{
     display: flex;
     justify-content: center;
     color: var(--naranja);
@@ -24,23 +25,67 @@
     width: 400px;
 }
 
-@media (min-width: 1000px)and (max-width:1100px){
 
+/* ------------------------------------------RESPONSIVE----------------------------------------------------*/
+
+
+@media (min-width: 1100px)and (max-width:1200px){
+    .contenedor{
+        margin-left: 220px ;
+    }
+    }
+@media (min-width: 1000px)and (max-width:1099px){
+.contenedor{
+    margin-left: 180px ;
+}
 }
 
-@media (min-width: 900px)and (max-width:1000px){
-
+@media (min-width: 900px)and (max-width:999px){
+    .contenedor{
+        margin-left:120px ;
+    }
 }
-@media (min-width: 800px)and (max-width:900px){
-
+@media (min-width: 800px)and (max-width:899px){
+    .contenedor{
+        width: 450px;
+        margin-left: 210px ;
+    }
 }
-@media (min-width: 700px)and (max-width:800px){
-
+@media (min-width: 700px)and (max-width:799px){
+    .contenedor{
+        width: 450px;
+        margin-left: 150px ;
+    }
 }
-@media (min-width: 600px)and (max-width:700px){
-
+@media (min-width: 600px)and (max-width:699px){
+    .contenedor{
+        width: 450px;
+        margin-left: 120px ;
+    }
 }
-@media  (max-width:800px){
+
+@media (min-width: 500px)and (max-width:599px){
+    .contenedor{
+        width: 450px;
+        margin-left: 100px ;
+    }
+}
+
+@media (min-width: 400px)and (max-width:499px){
+    .contenedor{
+        width: 450px;
+        margin-left: 80px ;
+    }
+}
+
+
+@media (min-width: 300px)and (max-width:399px){
+    .contenedor{
+        width: 450px;
+        margin-left: 50px ;
+    }
+}
+/* @media  (max-width:800px){
 .contenedor{
     width: 450px;
     margin-left: 190px;
@@ -48,4 +93,4 @@
 .sitios{
     margin-left: 250px;
 }
- }
+ } */

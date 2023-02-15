@@ -15,7 +15,7 @@
     width: 300px;
     margin-left: 150px;
     margin-top: 50px;
-}
+} 
 span{
     display: flex;
     justify-content: center;
@@ -45,10 +45,19 @@ span{
     color: white;
     margin-left: -475px;
 }
+
+
+
+
+/* -----------------------------------------BARRA DE HABILIDADES-----------------------------------------------*/
+
+
+
 .tituloHabilidades{
     color: var(--naranja);
     margin-bottom: 20px;
 }
+
 .skilss:not(:last-child){
     margin-bottom: 30px;
 }
@@ -124,17 +133,46 @@ span{
     }
 }
 
+/* ------------------------------------------RESPONSIVE---------------------------------------------------------*/
 
-@media (min-width: 1000px)and (max-width:1100px){
-
+@media (min-width: 1025px)and (max-width:1224px){
+    .habilidades{
+        margin-left:20px ;
+        width: 1200px;
+        }
+        .listaHabilidades{
+            margin-left: 100px;
+        }
 }
-
-@media (max-width:700px){
+@media (min-width: 1000px)and (max-width:1100px){
+.habilidades{
+    margin-left:20px ;
+    width: 1150px;
+    }
+    .listaHabilidades{
+        margin-left: 50px;
+    }
+}
+@media (min-width: 801px)and (max-width:999px){
+    .habilidades{
+        margin-left:20px ;
+        width: 1000px;
+        }
+        .listaHabilidades{
+            margin-left: 50px;
+        }
+        .skilss{
+            width: 450px;
+        }
+        .quienSoy{
+            margin-left: 50px;
+        }
+}
+@media (max-width:800px){
 .habilidades{
     display: block;
     height: 750px;
-    width: 600px;
-    
+    width: 600px;    
 }
 .listaHabilidades{
     margin-left: 50px;
@@ -147,6 +185,8 @@ span{
     margin-left: 50px;
 }
 }
+
+
 @media (min-width: 400px)and (max-width:500px){
 
 }

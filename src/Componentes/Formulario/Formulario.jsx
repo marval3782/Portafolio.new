@@ -1,5 +1,6 @@
 import React from 'react';
-import './Formulario.css'
+import './Formulario.css';
+import { BsFillEnvelopeFill, BsMessenger,BsTelegram,BsWhatsapp } from "react-icons/bs";
 
 const Formulario = () => {
     return(
@@ -10,25 +11,25 @@ const Formulario = () => {
       <div class="contenedorFormularios">
             <div class="contactos">
               <div class="plata">
-                <i class="bi bi-envelope-fill icono"></i> <h2 class="izquierda">marval37822@gmail.com</h2>    
+                <h2 class="izquierda">marval37822@gmail.com</h2>  <BsFillEnvelopeFill className='icono'/>  
               </div>
         
               <div class="plata">
-                <i class="bi bi-messenger icono"></i><h2 class="izquierda">Marcos Paredes</h2>  
+                <h2 class="izquierda">Marcos Paredes</h2>  <BsMessenger className='icono'/>
                   
             </div>
 
             <div class="plata">
-                <i class="bi bi-whatsapp icono"></i> <h2 class="izquierda">+54 9 11 2611-6381</h2>   
+                <h2 class="izquierda">+54 9 11 2611-6381</h2>  <BsTelegram className='icono'/> 
             </div>
     
             <div class="plata">
-                <i class="bi bi-telegram icono"></i> <h2 class="izquierda">+54 9 11 2611-6381</h2>    
+                 <h2 class="izquierda">+54 9 11 2611-6381</h2>   <BsWhatsapp className='icono'/>
             </div>
              <button class="btnServicios">Contratar Servicios</button>
             </div>
 
-        <hr/>
+        <hr className='separa'/> 
 
             <form class="losFormularios" action="https://formsubmit.co/f27bf88bd119fc85c22aa85a4be7032e " method="POST">
                    <p class="parrafoFormulario">Hable conmigo a través del formulario, me pondre en contacto lo mas rapido posible</p>

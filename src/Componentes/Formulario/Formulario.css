@@ -25,7 +25,8 @@ color: var(--naranja);
 .tituloContacto{
     color: white;
     margin-left: 180px;
-    
+    text-decoration: underline;
+    text-decoration-color:var(--naranja) ; 
 }
 
 .plata{
@@ -105,26 +106,154 @@ input:hover{
    
 }
 
-
-@media (min-width: 1000px)and (max-width:1100px){
-
+/* ----------------------------------------------------RESPONSIVE-------------------------------------------------------- */
+@media (min-width: 991px)and (max-width:1024px){
+    .contenedorFormularios{
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    .separa{
+      display: none;
+    }
+    .contactos{
+        margin-left: 140px;
+    }
+    .losFormularios{
+        margin-top: 50px;
+    }
+    .formulario{
+        margin-left: 200px;
+    }
 }
 
-@media (min-width: 900px)and (max-width:1000px){
-
+@media (min-width: 891px)and (max-width:990px){
+    .contenedorFormularios{
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    .separa{
+      display: none;
+    }
+    .contactos{
+        margin-left: 140px;
+    }
+    .losFormularios{
+        margin-top: 50px;
+    }
+    .formulario{
+        margin-left: 150px;
+    }
 }
-@media (min-width: 800px)and (max-width:900px){
-
+@media (min-width: 791px)and (max-width:890px){
+    .contenedorFormularios{
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    .separa{
+      display: none;
+    }
+    .contactos{
+        margin-left: 140px;
+    }
+    .losFormularios{
+        margin-top: 50px;
+    }
+    .formulario{
+        margin-left: 100px;
+    }
 }
-@media (min-width: 700px)and (max-width:800px){
-
+@media (min-width: 661px)and (max-width:790px){
+.contenedorFormularios{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
 }
-@media (min-width: 600px)and (max-width:700px){
-
+.separa{
+  display: none;
 }
-@media (min-width: 500px)and (max-width:600px){
-
+.contactos{
+    margin-left: 140px;
 }
-@media (min-width: 400px)and (max-width:500px){
-
+.losFormularios{
+    margin-top: 50px;
 }
+}
+@media (min-width:610px)and (max-width: 660px){
+    .contenedorFormularios{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .separa{
+      display: none;
+    }
+    .contactos{
+        margin-left: 140px;
+    }
+    .losFormularios{
+        margin-top: 50px;
+    }
+    }
+
+    @media (min-width:500px)and (max-width: 609px){
+        .contenedorFormularios{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+        .separa{
+          display: none;
+        }
+        .contactos{
+            margin-left: 90px;
+        }
+        .losFormularios{
+            margin-top: 50px;
+        }
+
+        .inputEmail,.inputNombres,.inputAsunto, .inputApellido{
+         width: 200px;
+        } 
+        .inputMensaje{
+            width: 400px;
+        }
+        .btnEnviar{
+            width: 460px;
+        }
+        .parrafoFormulario{
+            width: 480px;
+        }
+        }
+
+        @media (min-width:370px)and (max-width: 499px){
+            .contenedorFormularios{
+                display: flex;
+                flex-direction: column;
+                margin-left: 20px;
+            }
+            .separa{
+              display: none;
+            }
+            .contactos{
+                margin-left: 20px;
+            }
+            .losFormularios{
+                margin-top: 50px;
+            }
+    
+            .inputEmail,.inputNombres,.inputAsunto, .inputApellido{
+             width: 150px;
+            } 
+            .inputMensaje{
+                width: 300px;
+            }
+            .btnEnviar{
+                width: 360px;
+            }
+            .parrafoFormulario{
+                width: 380px;
+            }
+            }

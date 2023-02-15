@@ -9,7 +9,7 @@ import Sitios from './Componentes/Sitios/Sitios';
 import Redes from './Componentes/Redes/Redes';
 import Formulario from './Componentes/Formulario/Formulario';
 import Footer from './Componentes/Footer/Footer';
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
+
 import App from './App';
 
 
@@ -22,11 +22,14 @@ root.render(
 
   <>
   <Navbar/>
-  {/* <App/> */}
+  
   <Hero/>
   <Habilidades/> 
+  
   <Portafolio/>
+  
   <Sitios/>
+  <App/>
   <Redes/>
   <Formulario/>
   <Footer/>

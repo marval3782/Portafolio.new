@@ -25,30 +25,35 @@
     height: 120px;
     color: white;
 }
+/* -----------------------------------------------RESPONSIVE----------------------------------------------------*/
 
-
-@media (min-width: 1000px)and (max-width:1100px){
-
-}
-
-@media (min-width: 900px)and (max-width:1000px){
-
-}
-@media (min-width: 800px)and (max-width:900px){
-
-}
-@media (min-width: 700px)and (max-width:800px){
-
-}
-@media (min-width: 600px)and (max-width:700px){
-
-}
-@media(max-width:800px){
+@media (min-width: 1101px)and (max-width:1150px){
     .portafolio{
-        margin-left: 120px;
-        width: 600px;
+        margin-left: 160px;
+        width: 800px;
     }
 }
-@media (min-width: 400px)and (max-width:500px){
-
+@media (min-width: 900px)and (max-width:1000px){
+    .portafolio{
+        margin-left: 120px;
+        width: 700px;
+    }
+}
+@media (max-width:899px){
+    .portafolio{
+        margin-left: 190px;
+        width: 500px;
+    }
+}
+@media(max-width:790px){
+    .portafolio{
+       margin-left: 50px;
+        width:500px;
+    }
+}
+@media(max-width:530px){
+    .portafolio{
+        margin-left: 50px;
+         width:400px;
+     }
 }

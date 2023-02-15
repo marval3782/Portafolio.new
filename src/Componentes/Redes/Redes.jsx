@@ -6,7 +6,8 @@ const Redes  = () => {
     const style = { color:"var(--naranja)", fontSize: "4rem", marginLeft:"90px", marginTop:'20px' }
     const stylomsj = {marginLeft:'60px',fontSize: "4rem", marginTop:'20px'}
     return(
-        <><section id="redes" class="redes">
+        <>
+        <section id="redes" class="redes">
             <h3 class="tituloRedes">Contactame!</h3>
             <p class="sub">Medios sociales</p>
 
@@ -36,8 +37,9 @@ const Redes  = () => {
                 </div>
 
             </div>
-
-        </section><div class="cajaBoton"><a href="#formulario" class="aContactame">Contactame</a></div></>
+            <div class="cajaBoton"><a href="#formulario" class="aContactame">Contactame</a></div>
+        </section>
+        </>
     )
 }
 

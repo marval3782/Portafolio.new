@@ -5,13 +5,17 @@ import './Sitios.css'
 const Sitios = () => { 
 
 return( 
-    <><h2 class="sitios">SITIOS WEB</h2>
-    <div class="contenedor">
+    <>
+    
+    <h2 className="tituloSitios">SITIOS WEB</h2>
+    <div className="contenedor">
         <img src={persona} class="foto" alt="" />
         <img src={persona} class="foto" alt="" />
         <img src={persona} class="foto" alt="" />
         <img src={persona} class="foto" alt="" />
-    </div></>
+    </div>
+   
+    </>
 
     )
 }
