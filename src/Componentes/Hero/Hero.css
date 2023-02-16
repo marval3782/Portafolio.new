@@ -88,7 +88,7 @@
     .imagen{
         position: absolute;
         margin-top: 50px;
-        margin-left: 150px;
+        margin-left: 100px;
         z-index: 10;
     }
     .presentacion{
@@ -96,18 +96,23 @@
        z-index: 15;
     }
 }
-@media (min-width: 460px)and (max-width:700px){
-.hero{
-    display: block;
-    position: relative;
-    height: 500px;
-    width: 596px;
+@media (max-width:700px){
+    .hero{
+        display: block;
+        position: relative;
+        height: 500px;
+        width: 456px;
+    }
+.nombre{
+    font-size: 2rem;
 }
-
+.iam, .programador{
+    font-size: 1rem;
+}
 .imagen{
     position: absolute;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: -130px;
     z-index: 10;
 }
 .presentacion{
@@ -115,3 +120,4 @@
    z-index: 15;
 }
 }
+

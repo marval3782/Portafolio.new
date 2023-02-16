@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import persona from '../img/persona.png'
+import traje from '../img/traje.png'
 
 
 
@@ -15,7 +15,7 @@ const Hero = () => {
             <p class="programador">Programador web full stack developer</p>
             </div>
             <div class="imagen">
-            <img src={persona} class="persona" alt=""></img>
+            <img src={traje} class="persona" alt=""></img>
             
             </div>
             

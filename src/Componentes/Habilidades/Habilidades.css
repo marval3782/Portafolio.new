@@ -168,7 +168,7 @@ span{
             margin-left: 50px;
         }
 }
-@media (max-width:800px){
+@media(min-width:615px)and (max-width:800px){
 .habilidades{
     display: block;
     height: 750px;
@@ -186,7 +186,23 @@ span{
 }
 }
 
-
-@media (min-width: 400px)and (max-width:500px){
-
-}
+@media(min-width:450px)and (max-width:614px){
+    .habilidades{
+        display: block;
+        height: 750px;
+        width: 450px;    
+    }
+    .listaHabilidades{
+        margin-left: 50px;
+    }
+    
+    .des{
+        padding-top: 50px;
+    }
+    .quienSoy{
+        margin-left: 20px;
+    }
+    .skilss{
+        width: 300px;
+    }
+    }

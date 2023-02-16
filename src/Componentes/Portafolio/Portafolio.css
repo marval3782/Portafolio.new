@@ -51,9 +51,27 @@
         width:500px;
     }
 }
+@media(max-width:690px){
+    .portafolio{
+       margin-left: 40px;
+        width:400px;
+    }
+}
 @media(max-width:530px){
     .portafolio{
-        margin-left: 50px;
-         width:400px;
+        margin-left: 30px;
+         width:300px;
+     }
+     .presenta{
+        font-size: 1.5rem;
+     }
+     .limita{
+        width: 480px;
+     }
+}
+@media(max-width:460px){
+    .portafolio{
+        margin-left: 20px;
+         width:250px;
      }
 }

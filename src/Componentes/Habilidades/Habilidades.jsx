@@ -10,7 +10,7 @@ const Habilidades = () => {
       <span class="des">Descubre</span>
       <h1 class="tituloSoy">Quien soy</h1>
       <p class="parrafoSoy">Hola. bienvenido a mi espacio!
-        mi nombre es Marcos Paredes y soy desarrollador web independiente. Tengo un profundo sentido de pasión y dedicación por mi trabajo. lo que me permite entregar resultados excepcionales a mis clientes. con 3 meses de experiencia en el área de desarrollo. He adquirido las habilidades técnicas y creativas necesarias para crear sitios web de alta calidad y crecer y desarrollar mis habilidades, y espero trabajar en proyectos que me desafíen y me permitan demostrar mi valía como desarrollador web independiente.</p>
+        mi nombre es Marcos Paredes y soy desarrollador web independiente. Tengo un profundo sentido de pasión y dedicación por mi trabajo. lo que me permite entregar resultados excepcionales a mis clientes. con 5 meses de experiencia en el área de desarrollo. He adquirido las habilidades técnicas y creativas necesarias para crear sitios web de alta calidad y crecer y desarrollar mis habilidades, y espero trabajar en proyectos que me desafíen y me permitan demostrar mi valía como desarrollador web independiente.</p>
      </div>
      <div class="listaHabilidades">
       <span class="mis">Mis</span>

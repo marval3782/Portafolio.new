@@ -3,8 +3,6 @@ import './Redes.css'
 import {BsFacebook, BsInstagram, BsFillEnvelopeFill} from "react-icons/bs";
 
 const Redes  = () => {
-    const style = { color:"var(--naranja)", fontSize: "4rem", marginLeft:"90px", marginTop:'20px' }
-    const stylomsj = {marginLeft:'60px',fontSize: "4rem", marginTop:'20px'}
     return(
         <>
         <section id="redes" class="redes">
@@ -18,7 +16,7 @@ const Redes  = () => {
                         <h6 class="card-subtitle">Marcos Paredes</h6>
                     </div>
                     <div>
-                    <BsFacebook style={style}/>
+                    <BsFacebook className='facebook icon'/>
                     </div>
                 </div>
                 <div class="card-body">
@@ -26,14 +24,14 @@ const Redes  = () => {
                         <h5 class="card-title">Gmail</h5>
                         <h6 class="card-subtitle">marval37822@gmail.com</h6>
                     </div>
-                    <BsFillEnvelopeFill style={stylomsj}/>
+                    <BsFillEnvelopeFill className='msj icon'/>
                 </div>
                 <div class="card-body">
                     <div>
                         <h5 class="card-title">Instagram</h5>
                         <h6 class="card-subtitle">@Marcos__0k</h6>
                     </div>
-                    <BsInstagram  style={style}/>
+                    <BsInstagram  className='instagram icon'/>
                 </div>
 
             </div>

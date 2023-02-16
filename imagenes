@@ -1,0 +1,23 @@
+[33mcommit 65a00b0e4702dd9f59fca575b61eece578b43879[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: marval3782 <117692243+marval3782@users.noreply.github.com>
+Date:   Wed Feb 15 11:51:28 2023 -0300
+
+    responsive finalizado
+
+[33mcommit 34cc534279b3b03c370df4ea5340dbab3710989a[m
+Author: marval3782 <117692243+marval3782@users.noreply.github.com>
+Date:   Thu Feb 9 13:23:00 2023 -0300
+
+    navbar
+
+[33mcommit fe9c9c4b6de28799d1d0405cdf3edf8990e8975a[m
+Author: marval3782 <117692243+marval3782@users.noreply.github.com>
+Date:   Mon Jan 30 15:58:15 2023 -0300
+
+    maquetado
+
+[33mcommit 329a15e4ab82b884b8e24fdca59067c4c950a35c[m
+Author: marval3782 <117692243+marval3782@users.noreply.github.com>
+Date:   Mon Jan 30 13:46:13 2023 -0300
+
+    Initialize project using Create React App
