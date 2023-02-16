@@ -7,15 +7,15 @@ import traje from '../img/traje.png'
 const Hero = () => {
       
     return(
-        <section id="quienSoy" class="hero">
+        <section id="quienSoy" className="hero">
         
-            <div class="presentacion">
-            <p class="iam">Hola, yo soy</p>
-            <h1 class="nombre">Marcos Valentin Paredes</h1>
-            <p class="programador">Programador web full stack developer</p>
+            <div className="presentacion">
+            <p className="iam">Hola, yo soy</p>
+            <h1 className="nombre">Marcos Valentin Paredes</h1>
+            <p className="programador">Programador web full stack developer</p>
             </div>
-            <div class="imagen">
-            <img src={traje} class="persona" alt=""></img>
+            <div className="imagen">
+            <img src={traje} className="persona" alt=""></img>
             
             </div>
             

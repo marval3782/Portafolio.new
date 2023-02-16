@@ -1,5 +1,5 @@
 import React from 'react';
-import persona from '../img/persona.png'
+import paginaweb from '../img/paginaweb.png'
 import calculadora from '../img/calculadora.png'
 import moxa from '../img/moxa.png'
 import degrade from '../img/degrade.png'
@@ -12,10 +12,10 @@ return(
     
     <h2 className="tituloSitios">SITIOS WEB</h2>
     <div className="contenedor">
-        <img src={persona} class="foto" alt="" />
-        <img src={calculadora} class="foto" alt="" />
-        <img src={moxa} class="foto" alt="" />
-        <img src={degrade} class="foto" alt="" />
+        <img src={paginaweb} className="foto" alt="" />
+        <img src={calculadora} className="foto" alt="" />
+        <img src={moxa} className="foto" alt="" />
+        <img src={degrade} className="foto" alt="" />
     </div>
    
     </>
