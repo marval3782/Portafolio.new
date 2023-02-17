@@ -10,32 +10,18 @@ import Redes from './Componentes/Redes/Redes';
 import Formulario from './Componentes/Formulario/Formulario';
 import Footer from './Componentes/Footer/Footer';
 
-import App from './App';
-
-
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
-
   <>
   <Navbar/>
-  
   <Hero/>
   <Habilidades/> 
-  
   <Portafolio/>
-  
   <Sitios/>
-  <App/>
   <Redes/>
   <Formulario/>
   <Footer/>
   </>
-  
-
 );
 
 // If you want to start measuring performance in your app, pass a function

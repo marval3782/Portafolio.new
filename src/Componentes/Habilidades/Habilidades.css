@@ -193,7 +193,7 @@ span{
         width: 450px;    
     }
     .listaHabilidades{
-        margin-left: 50px;
+        margin-left: 30px;
     }
     
     .des{
@@ -206,3 +206,24 @@ span{
         width: 300px;
     }
     }
+    @media(min-width:360px)and (max-width:449px){
+        .habilidades{
+            display: block;
+            height: 750px;
+            width: 400px;    
+            margin-left: 15px;
+        }
+        .listaHabilidades{
+            margin-left: 30px;
+        }
+        
+        .des{
+            padding-top: 50px;
+        }
+        .quienSoy{
+            margin-left: 20px;
+        }
+        .skilss{
+            width: 300px;
+        }
+        }
