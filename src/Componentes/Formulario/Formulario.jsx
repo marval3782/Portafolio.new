@@ -31,7 +31,7 @@ const Formulario = () => {
 
         <hr className='separa'/> 
 
-            <form className="losFormularios" action="https://formsubmit.co/f27bf88bd119fc85c22aa85a4be7032e " method="POST">
+            <form className="losFormularios" action="https://formsubmit.co/f27bf88bd119fc85c22aa85a4be7032e" method="POST">
                    <p className="parrafoFormulario">Hable conmigo a través del formulario, me pondre en contacto lo mas rapido posible</p>
                 <div className="inputUno">
                    <input type="text" placeholder="Nombres" name="Nombres" className="inputNombres"/>
