@@ -44,7 +44,7 @@ const Formulario = () => {
                    <input type="text" placeholder="Mensaje" name="Mensaje" className="inputMensaje"/>
                    <input type="submit" className="btnEnviar" value="Enviar"></input>
     
-                   <input  type="hidden" name="_next" value="portafolio-new-git-master-marval3782.vercel.app"/>
+                   <input  type="hidden" name="_next" value="https://portafolio-new-git-master-marval3782.vercel.app/."/>
                    <input type="hidden" name="_captcha" value="false"/>
             </form>
       </div>
